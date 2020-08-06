@@ -1,0 +1,9 @@
+ALGORITMO MedianFlow
+
+- Não é muito adequado para objetos com movimentos rápidos ou que mudam sua aparencia rapidamente
+
+- Rastreia o objeto nas fireções para frente e para trás no tempo e mede as 
+discrepancias entre essas duas trajetórias (entre frames)
+
+- Permite detectar falhas de rastreamento e selecionar trajetorias nas sequencias de vídeo.
+

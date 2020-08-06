@@ -1,0 +1,13 @@
+ALGORITMO GOTURN (Generic Object Tracking Using Regression Networks)
+
+- A implementação original do GOTURN está no Caffe, mas foi portada para API OpenCV Traking
+
+- Aprendizagem off-line (treinado com milhares de sequências de vídeo)
+
+* muito utilizado pra visão computacional
+
+Utiliza a tecnica de redes neurais convulsionais
+muito utilizada para trabalhar com imagens objetos
+
+* precisa fazer testes pra verificar se é indicado
+

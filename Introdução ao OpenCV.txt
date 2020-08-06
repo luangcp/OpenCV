@@ -1,0 +1,23 @@
+RASTREAMENTO DE OBJETOS COM PYTHON E OPENCV
+
+Rastreamento de objetos: Localizar objetos em quadros sucessivos de um video
+
+ALGORITMOS DE RASTREAMENTO:
+- Boosting
+- MIL
+- KCF
+- TLD
+- MedianFlow
+- MOSSE 
+- CSRT
+- Goturn
+- Meanshift
+- CAMShift
+- Optical Flow Sparse
+- Optical Flow Dense
+
+APLICAÇÕES:
+- Rastrear uma pessoa ou objeto específico dentre vários outros
+- O rastreamento e análise do movimento de jogadores em uma partida de futebol
+- O rastreamento de objetos tem vários usos, alguns dos quais são vigilância e segurança, monitoramento de tráfego
+

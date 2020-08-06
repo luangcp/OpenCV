@@ -1,0 +1,15 @@
+INSTALANDO O AMBIENTE PARA UTILIZAÇÃO
+
+Baixar o ANACONDA
+
+Baixar o Pycharm
+
+Criar o projeto no pycharm
+
+conferir no anaconda navegador
+
+baixar os pacotes de dados no terminal do pycharm:
+
+pip install opencv-python==3.4.4.19
+
+pip install opencv-contrib-python==3.4.4.19

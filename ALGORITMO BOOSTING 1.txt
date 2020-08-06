@@ -1,0 +1,10 @@
+ALGORITMO BOOSTING 
+- É um pouco lento e não funciona muito bem 
+- Baseado no Haarcascade (AdaBoost)
+- É treinado em tempo de execução (online) com exemplos positivos e negativos
+- A caixa delimitadora inicial é aceita pelo algoritmo como exemplo positivo para o objeto. O restante da imagem fora
+da caixa delimitadora são tratados como plano de fundo (1 se é o objeto e 0 se é o plano de fundo)
+- Ele retorna valores proximos de 1 e proximos de 0 dizendo se é o objeto ou não
+- Dado um novo quadro, o classificador é executado em todos os pxels nas proximidades do local anterior e a pontuação do classificador é registrada
+- Os exemplos positivos são adicionados a cada frame e à medida que mais quadros entram, o classificador é atualizado com esses dados adicionais.
+

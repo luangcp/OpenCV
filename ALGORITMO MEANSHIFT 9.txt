@@ -1,0 +1,19 @@
+ALGORITMO MEANSHIFT
+
+-> Utiliza análise de espaço de característica para localizar os
+máximos de uma função de densidade
+
+-> Determina o peso dos pontos próximos para a estimativa da média
+(baseado em cores)
+
+-> ele move os pixels, faz uma aproximação dos pixels de acordo com selecionado
+
+-> ele direciona para direção onde tem a maior direção de cor (maior densidade)
+
+PDF -> Função probabilitica de densidade
+
+cria um mapa de confiança, com base no histograma de cores do anterios
+
+atribui uma probabilidade a cada pixel vazio
+
+NO PONTO DA MAIOR DENSIDADE DE PIXELS ELE VAI

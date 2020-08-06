@@ -1,0 +1,12 @@
+ALGORITMO CAMshift (Continuosuly Adaptive Meanshift)
+
+Ele é um complemento do Meanshift
+
+- Com o meanshift a janela sempre tem o mesmo tamanho,
+esteja o objeto muito longe ou muito perto da camera
+
+- Este algoritmo faz com que o tamanho da janela continue sendo atualizado quando a janela de rastreamento
+tenta convergir
+
+- Calcula a elipse mais adequada e aplica novamente a mudança de média com a janela
+de pesquisa recem escalada e a anterior

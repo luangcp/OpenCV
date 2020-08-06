@@ -1,0 +1,133 @@
+ALGORITMOS:
+
+BOOSTING
+
+- cv::TrackerBoosting Class Reference: https://docs.opencv.org/3.4/d1/d1a/classcv_1_1TrackerBoosting.html
+
+- Real-Time Tracking via On-line Boosting: http://www.bmva.org/bmvc/2006/papers/033.pdf
+
+
+
+MIL
+
+- cv::TrackerMIL Class Reference: https://docs.opencv.org/3.4/d0/d26/classcv_1_1TrackerMIL.html
+
+- Visual tracking with online multiple instance learning: https://vision.cornell.edu/se3/wp-content/uploads/2014/09/0fcfd5086e4e9dd86c000000.pdf
+
+
+
+KCF
+
+- cv::TrackerKCF Class Reference: https://docs.opencv.org/3.4/d2/dff/classcv_1_1TrackerKCF.html
+
+- Geometric affine transformation estimation via correlation filter for visual tracking: https://www.sciencedirect.com/science/article/abs/pii/S0925231216305422
+
+- EnKCF: Ensemble of Kernelized Correlation Filters for High-Speed Object Tracking: https://www.groundai.com/project/enkcf-ensemble-of-kernelized-correlation-filters-for-high-speed-object-tracking/1
+
+- High-Speed Tracking with Kernelized Correlation Filters: https://arxiv.org/pdf/1404.7584.pdf
+
+CSRT
+
+- cv::TrackerCSRT Class Reference: https://docs.opencv.org/3.4/d2/da2/classcv_1_1TrackerCSRT.html
+
+- Discriminative Correlation Filter with Channel and Spatial Reliability: https://arxiv.org/pdf/1611.08461.pdf
+
+- Faster RCNN Detection Based OpenCV CSRT Tracker Using Drone Data: https://www.researchgate.net/publication/339555637_Faster_RCNN_Detection_Based_OpenCV_CSRT_Tracker_Using_Drone_Data
+
+
+
+MEDIANFLOW
+
+- cv::TrackerMedianFlow Class Reference: https://docs.opencv.org/3.4/d7/d86/classcv_1_1TrackerMedianFlow.html
+
+- Evaluation of Visual Tracking Algorithms for Embedded Devices: https://www.researchgate.net/publication/317803149_Evaluation_of_Visual_Tracking_Algorithms_for_Embedded_Devices
+
+- Forward-Backward Error: Automatic Detection of Tracking Failures: http://kahlan.eps.surrey.ac.uk/featurespace/tld/Publications/2010_icpr.pdf
+
+TLD
+
+- cv::TrackerTLD Class Reference: https://docs.opencv.org/3.4/dc/d1c/classcv_1_1TrackerTLD.html
+
+- Tracking-Learning-Detection: http://vision.stanford.edu/teaching/cs231b_spring1415/papers/Kalal-PAMI.pdf
+
+Real-Time Pedestrian Tracking and Counting with TLD: https://www.researchgate.net/publication/328608910_Real-Time_Pedestrian_Tracking_and_Counting_with_TLD
+
+An improved TLD target tracking algorithm based on the variable-scale, compressing tracking: https://www.researchgate.net/publication/322001178_An_improved_TLD_target_tracking_algorithm_based_on_the_variable-scale_compressing_tracking
+
+MOSSE
+
+- ​cv::TrackerMOSSE Class Reference: https://docs.opencv.org/3.4/d0/d02/classcv_1_1TrackerMOSSE.html
+
+Visual Object Tracking using Adaptive Correlation Filters: https://www.cs.colostate.edu/~draper/papers/bolme_cvpr10.pdf
+
+​GOTURN
+
+- cv::TrackerGOTURN Class Reference: https://docs.opencv.org/3.4/d7/d4c/classcv_1_1TrackerGOTURN.html
+
+GOTURN : Deep Learning based Object Tracking: https://www.learnopencv.com/goturn-deep-learning-based-object-tracking/
+
+Learning to Track at 100 FPS with Deep Regression Networks: http://davheld.github.io/GOTURN/GOTURN.pdf
+
+VOT 2014 dataset: https://www.votchallenge.net/vot2014/dataset.html
+
+
+
+COMPARATIVO ENTRE ALGORITMOS DE RASTREAMENTO IMPLEMENTADOS NO OPENCV
+
+Comparison of tracking algorithms implemented in OpenCV: https://www.matec-conferences.org/articles/matecconf/pdf/2016/39/matecconf_cscc2016_04031.pdf
+
+Comparing state of the art Region of Interest trackers: https://medium.com/teleidoscope/comparing-state-of-the-art-region-of-interest-trackers-906ba420e80d
+
+OpenCV Object Tracking: https://www.pyimagesearch.com/2018/07/30/opencv-object-tracking/
+
+Object Tracking using OpenCV (C++/Python): https://www.learnopencv.com/object-tracking-using-opencv-cpp-python/
+
+
+
+MEANSHIFT e CAMSHIFT
+
+Meanshift and Camshift: https://docs.opencv.org/3.4/d7/d00/tutorial_meanshift.html
+
+Meanshift and Camshift: https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_video/py_meanshift/py_meanshift.html
+
+MEANSHIFT TRACKING: https://www.bogotobogo.com/python/OpenCV_Python/python_opencv3_mean_shift_tracking_segmentation.php
+
+Mean Shift: A Robust Approach Toward Feature Space Analysis: https://courses.csail.mit.edu/6.869/handouts/PAMIMeanshift.pdf
+
+Track objects with Camshift using OpenCV: https://www.geeksforgeeks.org/track-objects-with-camshift-using-opencv/
+
+Learning OpenCV 3 Computer Vision with Python - Second Edition: https://subscription.packtpub.com/book/application_development/9781785283840
+
+Object Tracking Using Improved CAMShift Algorithm Combined with Motion Segmentation: https://www.researchgate.net/publication/261194641_Object_Tracking_Using_Improved_CAMShift_Algorithm_Combined_with_Motion_Segmentation
+
+Computer Vision Face Tracking for Use in Perceptual User Interface: http://opencv.jp/opencv-1.0.0_org/docs/papers/camshift.pdf
+
+FLUXO ÓPTICO ESPARSO E FLUXO ÓPTICO DENSO
+
+Evaluation Datasets: http://vision.middlebury.edu/flow/data/
+
+Taylor Series as Approximations: http://www.norsemathology.org/wiki/index.php?title=Taylor_Series_as_Approximations
+
+Introduction to Motion Estimation with Optical Flow: https://nanonets.com/blog/optical-flow/#opticalflow
+
+Optical Flow: https://docs.opencv.org/3.4/d4/dee/tutorial_optical_flow.html
+
+Optical flow: https://en.wikipedia.org/wiki/Optical_flow
+
+A COMBINED CORNER AND EDGE DETECTOR: http://www.bmva.org/bmvc/1988/avc-88-023.pdf
+
+Harris Corner Detector-An Overview of the Original Paper: https://medium.com/swlh/harris-corner-detector-an-overview-of-the-original-paper-cf20c502ab0f
+
+Notes on the Harris Detector: https://courses.cs.washington.edu/courses/cse576/06sp/notes/HarrisDetector.pdf
+
+Optical Flow Measurement using Lucas kanade Method: https://research.ijcaonline.org/volume61/number10/pxc3884611.pdf
+
+Lucas–Kanade method: https://en.wikipedia.org/wiki/Lucas%E2%80%93Kanade_method
+
+Good features to track: http://www.ai.mit.edu/courses/6.891/handouts/shi94good.pdf
+
+Feature Detection: https://docs.opencv.org/3.0-beta/modules/imgproc/doc/feature_detection.html#goodfeaturestotrack
+
+Two-Frame Motion Estimation Based on Polynomial Expansion: http://www.diva-portal.org/smash/get/diva2:273847/FULLTEXT01.pdf
+
+Video Segmentation via Object Flow: http://files.is.tue.mpg.de/black/papers/TsaiCVPR2016.pdf

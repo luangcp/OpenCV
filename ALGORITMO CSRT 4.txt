@@ -1,0 +1,18 @@
+ALGORITMO CSRT (Discriminative Correlation Filter with channel and spatial reliability)
+
+- mais preciso que o KCF mas é mais lento
+
+- É criado um mapa de confiabilidade espacial para ajustar a região selecionada para rastreamento
+
+- Adequado também para objetos não retangulares
+
+- Utiliza 2 recursos padrões das imagens (HOGs e Colornames)
+HOG -> Cria um filtro discriminativo, descritores das imagens, extrai as informações uteis das imagens, alem disso o HOG identifica onde tem bordas ou cantos
+Colorname -> Baseado nas cores
+
+- É baseado nas cores do objetos, cria um filtro com a construção do mapa de confiabilidade espacial
+
+1- Patch de teinamento com a caixa delimitadora do objeto a ser rastreado
+2- HOG para extrair informação útil da imagem
+3- Probabilidade de objeto posterior após o teste aleatório de Markov
+4- Patch de treinamento mascarado com o mapa final de confiabilidade

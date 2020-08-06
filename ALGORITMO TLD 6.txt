@@ -1,0 +1,8 @@
+ALGORITMO TLD (Tracking Learning Detection)
+
+- Satya Mallick (learnopencv.com) e Adrian Rosebrock (pyimagesearch.com) não recomendam usar este
+rastreador de objetos do OpenCV (muitos falsos positivos)
+
+- Decompões a tarefa de rastreamento a longo prazo em três componentes - rastreamento (curto prazo), aprendizado e detecção
+
+- O aprendizado estima os erros e o detector o atualiza

@@ -1,0 +1,13 @@
+ALGORITMO MIL (Multiple Instance Learning)
+
+- tem uma precisão melhor que do boosting
+
+- Ele define como exemplos positivos que você seleciona
+
+- Ao invés de considerar apenas a localização atual do objeto como um exemplo positivo, o algoritmo procura posições ao redor da localização atual
+para gerar vários POTENCIAIS exemplos positivos
+
+- Coleção de imagens positivas e coleção de imagens negativas. Nas positivas, somente uma imagem prevista será considerada positiva
+
+- Mesmo que a localização atual do objeto rastreado não seja precisa, quando amostras da vizinhança de localização atual são colocadas 
+na coleção de imagens positivas, há uma boa chance de que essa coleção de imagens contenha pelo menos uma imagem na qual o objeto esteja bem centralizado.

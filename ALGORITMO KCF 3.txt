@@ -1,0 +1,11 @@
+ALGORITMO KCF (Kernel Correlation Filters)
+- Mais rapido que o BOOSTING e que o MIL
+
+- Utiliza o fato de que as multiplas amostras positivas usadas no rastreador MIL têm grandes regioes sobrepostas
+
+- Esses dados sobrepostos levam a algumas boas propriedades matematicas que são exploradas por esse rastreador para 
+tornar o rastreamento mais rápido e preciso.
+
+- O primeiro quadro é usado para inicializar o algoritmo
+
+- Para os próximos seis quadros, cada um dos três KCF é atualizado para estimar a mudanã de escala do objeto

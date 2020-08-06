@@ -1,0 +1,29 @@
+ALGORITMOS DE RASTREAMENTO
+
+- MODELO DE MOVIMENTO 
+-> Localização + velocidade nos quadros anteriores
+-> Prevê a localização aproximada do objeto
+
+- MODELO DE APARENCIA 
+-> Aparência do objeto (formato)
+-> Pesquisar em uma posição próxima para prever a localização
+
+O modelo de movimento prevê a localização aproximada do objeto. 
+O modelo de aparência ajusta essa estimativa para fornecer uma estimativa mais precisa com base na aparencia
+
+OBJETIVO DO ALGORITMOS DE RASTREAMENTO:
+- Classificar uma região retangular como objeto ou plano de fundo
+- Recebe um patch(recursos detalhados da imagem) como entrada e retorna uma pontuação
+entre 0 e 1 para indicar a probabilidade de que o patch de imagem contenha o objeto (0 é o plano de fundo e 1 o objeto)
+** OBS: Quanto mais proximo de 1 significa que está mais proximo da imagem
+- Aprendizagem Online x Aprendizagem Offiline
+ONLINE: São treinados em tempo real e em tempo de execução
+OFFILINE: Precisa ter milhares de exemplos pra treinar o algoritmo
+
+Se o objetivo é rastrear gatos e cachorros precisa ter milhares de fotos e gatos e milhares de fotos de cachorro
+
+SITES FAMOSOS PARA APRENDIZAGEM DE OPENCV E VISÃO COMPUTACIONAL:
+- Satya Mallick (learnopencv.com) e Adrian Rosebrock (pyimagesearch.com): https://www.pyumagesearch.com/2018/07/30/opencv-object-tracking/
+
+
+ 

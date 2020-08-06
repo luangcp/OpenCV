@@ -1,0 +1,40 @@
+ALGORITMO OPTICAL FLOW -> Fluxo Optico
+
+- Representa a direção de cada pixel e a velocidade
+
+- Quanto mais longe o objeto estiver, menor o movimento dos pixels. 
+Quanto mais perto o objeto, maior o movimento dos pixels (matriz de cores HSV)
+
+- A matiz (H) é usada para indicar a direção do movimento dos pixels (tentativa de estabelecer
+para onde cada ponto da imagem está se movimentando)
+
+- A Saturação(S) é usada para indicar a velocidade dos pixels
+
+- Quando o deslocamento dos pixels é menos, a intensidade da cor também
+é menor (a saturação diminui)
+
+- Quanto maior o deslocamento dos pixels, maior é a intensidade da cor (a saturação aumenta)
+
+
+Trabalha com setas, e quanto maior a seta maior a movimentação de pixels no lugar
+quando menor as setas menor é o movimento de pixes (EXEMPLO DE UM CARRO EM MOVIMENTO, NO CAPU AS SETAS SÃO MENORES, AO LONGO DA ESTRADA COM PLACAS E PREDIOS AS SETAS SÃO MAIORES PELA MOVIMENTAÇÃO VARIADA)
+
+As setas são nada mais que vetores
+
+podemos usar o tamanho do vetor para descartar lugares com pouca movimentação
+
+
+-> Inicialmente o algoritmo faz a detecção de cantos/arestas para determinar a orientação dos vetores na imagem.
+ Utilizando o algoritmo de Harris (u e v indicam o deslocamento)
+
+-> Shi e Tomassi modificadam a equação de Harris Corner Detector. É feito o cálculo da pontuação R
+
+- dependendo do valor de R, cada janela é classificada como plana, aresta ou canto
+
+- Metodo KLT (Kanade, Lucas e Tomasi): Utiliza pirâmides, analisando imagens menores do mesmo frame
+
+
+
+
+
+

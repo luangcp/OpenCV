@@ -1,0 +1,13 @@
+ALGORITMO MOSSE (Minumum Output Sum of Squared Error)
+
+- É o mais rapido de todos mas não é tão preciso quanto o CRST OU O KCR
+
+- Usa correlação adaptativa para rastreamento de objetos, que produz filtros de correlação estáveis quando inicializados usando um único quadro
+
+- Robusto a variações de iluminação, escala, pose e deformações não rigidas
+
+- Detecta ocluões (exemplo colocar a mão na cara) e permite ao rastreador pausar e retomar de onde parou quando o objeto reaparece
+
+ele funciona com Input e Output além do filtro
+
+primeiro detecta o filtro e depois determina uma entrada e saida

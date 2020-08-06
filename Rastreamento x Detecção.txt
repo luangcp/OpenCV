@@ -1,0 +1,32 @@
+Diferenças entre Rastreamento x Detecção
+
+- GERALMENTE OS ALGORITMOS DE RASTREAMENTO SÃO MAIS RAPIDOS QUE OS DE DETECÇÃO
+
+- Um bom algoritmo de rastreamento utilizará todas as informações que ele tem sobre o objeto até esse ponto, enquanto
+um algoritmo de detecção sempre começa do zero
+
+- Quando trabalhamos com detecção de Objetos: vai fazer o processamento de n frames
+
+- Algoritmos de rastreamento: utilizara n-1 frames, vai usar somente o primeiro frame do video pra detectar o objeto
+
+- O rastreamento se beneficia das informações extras que ele possui, porém, podemos perder o controle de um objeto quando ele fica
+atrás de um obstáculo ou se ele se movo tão rapido que o algoritmo de rastreamento não consegue alcançá-lo
+
+- Caixa delimitadora que rastreia o objeto se afasta
+
+- Executar um algoritmo de detecção, assim ele recupera o objeto e continua rastreando
+
+- Trabalhar com algoritmo de detcção quando o rastreador falhar
+
+- O rastreamento pode ajudar quando a detecção falha
+
+- O rastreamento preserva a identidade de um objeto
+
+- Primeiro ele faz a detecção de pontos e mantem qual posição ele está
+
+PORQUE PRECISAMOS DO RASTREAAMENTO DE OBJETOS? Não podemos simplesmente detectar objetos em todos os quadros?
+- Identidade, quando acompanhamos somente um objeto ele tem sua propria identidade
+- A detecção de objetos pode falhar
+- Pesquisa local ao invés de pesquisa global -> algoritmos locais são mt rapidos
+- Detecção + Rastreamento -> Quando o rastreamento falhar vc roda a detecção
+

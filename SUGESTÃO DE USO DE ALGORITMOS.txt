@@ -1,0 +1,9 @@
+SUGESTÃO DE USO DE ALGORITMOS
+
+- Use o CSRT quando precisar de maior precisão no rastreamento e puder tolerar um FPS mais lento
+
+- Use o KCF quando precisar de um FPS mais rápido, mas pode lidar com uma precisão de rastreamento de um objeto um pouco menor.
+
+- Use MOSSE quando precisar de maior velocidade
+
+Depende muito do tipo de utilização
